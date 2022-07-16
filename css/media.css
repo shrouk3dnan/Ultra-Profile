@@ -1,0 +1,156 @@
+
+@media (min-width:992px) {
+    .navbar label{
+        display: none;
+    }
+    
+}
+
+@media (max-width:350px){
+    .footer .p-fot {
+        font-size: 18px;
+        color: #5e5e5e;
+        }
+}
+
+@media (max-width:575px){
+    
+    .portfolio{
+        background-color: #f8f8f8;
+        padding-top: 20px;
+        height: 52vh;
+        overflow: hidden;/*999*/
+    }
+
+    .profile-skills .profile,
+    .profile-skills .skills{
+        width: 100%;
+        float: none;
+    }
+
+    .profile-skills .profile{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:700px){
+
+    .portfolio .port-list .port-items{
+        display: block;
+        margin: auto;
+    }
+
+    .portfolio .port-list .port-items:hover{
+        background-color: #eb5424;
+    }
+
+    .portfolio .port-list .port-items.act{
+        background-color:rgba(255, 255, 255, 0) ;
+        color: black
+}
+
+.portfolio .port-list .port-items.act:hover{
+    background-color: #eb5424;
+    color: black}
+
+}
+
+@media (max-width:768px) {
+    .home .home-information .home-title{
+        font-size: 40px;
+        color: white;
+    }
+
+    .home .home-information .home-info{
+        font-size: 25px;
+    }
+
+    .home .home-information .home-desc
+
+    {
+        font-size: 15px;
+    }
+
+
+    .work .part{
+        width: 100%;
+        margin-left: 0;
+        }
+}
+
+/*end home & work &portfolio*/
+
+@media (max-width:990px){
+    .box-img div{
+        width: 50%;
+        display: inline-block;
+        float: left;
+        margin-bottom: 70px;
+        text-align: center;
+        overflow: hidden;
+        /* font-size: 0; -->to hide the space between img*/
+    }
+
+    .box-img div img{
+        width: 75%;
+        height: auto;
+        cursor: pointer;
+    }
+    
+    .box-img div img{
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+    }
+    
+    .box-img div:hover img{
+        transform: scale(1.5);
+    }
+    
+}
+
+@media (max-width:991px) {
+
+}
+
+@media (max-width:991px) {
+    
+    .navbar .logo{
+        width: 100%;
+        float: none;
+    }
+    
+    .navbar .ul-list{
+        width: 100%;
+        margin-top: 10px;
+        float: none;
+        display: none;
+    }
+
+    .navbar .ul-list .list-items{
+        display: block;
+        text-align: center;
+    }
+
+    .navbar .ul-list .list-items a:hover{
+        color: #eb5424;
+    }
+
+    .creative{
+        height: auto;
+    }
+
+    .creative .creative-info{
+        width: 100%;
+        padding-top: 10px;
+        float: none;
+    }
+
+    .social-media .social{
+        width: 100%;
+        float: none;
+    }
+
+}
+/*end navbar*/
+
